@@ -179,27 +179,5 @@
 	opacity: 1;
 	transition: opacity 1s ease;
 }
-
-@media screen and (max-width: 900px) {
-	.content_subscribe input {
-		width: 30vw;
-	}
-	.content_arrow {
-		width: 7vw;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.content_subscribe input {
-		width: 45vw;
-	}
-	.content_arrow {
-		width: 12vw;
-	}
-	.top_navigation .nav_logo {
-		font-size: 20px;
-	}
-	.top_navigation .nav_login {
-		font-size: 8px;
-	}
+@media (max-width: 1024px) {
 }
