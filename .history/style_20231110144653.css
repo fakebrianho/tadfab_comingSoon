@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'Sackers';
+	src: url('/assets/Fonts/Sackers/SackersGothicLight.ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+.image_container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.slide {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.slide img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	/* width: 100px; */
+}
+.cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	z-index: 3;
+}
+.top_navigation {
+	z-index: 5;
+	position: fixed;
+	display: flex;
+	width: 100vw;
+	height: 75px;
+	background-color: red;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 40px;
+	top: 0;
+}
+.top_navigation .nav_logo {
+	font-family: 'Sackers';
+	font-size: 32px;
+}
+.top_navigation .nav_login {
+	font-family: 'Sackers';
+	font-size: 12px;
+}
+.content {
+	font-family: 'Sackers';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	z-index: 5;
+}
+
+.content p {
+	padding: 2px 0px;
+}
+.content_comingSoon {
+	font-size: 20px;
+}
+.content_signUp {
+	font-size: 12px;
+}
+
+.content_subscribe {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+.content_subscribe input {
+	font-family: 'Sackers';
+	border: none;
+	background-color: #777b7e;
+	color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 30vw;
+	padding: 5px 0px;
+}
+.content_subscribe input::placeholder {
+	font-family: 'Sackers';
+	color: white;
+}
+.content_arrow {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
